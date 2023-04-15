@@ -3,7 +3,8 @@
 type BannerProps = {
     buttonText: string;
     handleOnClick: () => void;
-};
+}
+
 
 export const Banner = ({ buttonText, handleOnClick }: BannerProps) => {
 
